@@ -1,0 +1,179 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+  margin:0;
+  border:0;
+  padding:0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4{
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+#ubicacion h2 {
+  margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+
+.subtitulo, h4, h5 {
+  font-weight: 400;
+}
+
+.oscuro{
+  background: #000f08;
+  color:#ffffff;
+}
+.oscuro a{
+  color: white;
+  text-decoration: none;
+}
+.sweet-brown {
+  text-align: center;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+.hero-section {
+  text-align: right;
+background-image: url('../img/bg-hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffffff;
+text-shadow: 0.125em 0.25em 0.125em #707070;
+padding: 6.25rem 3.125rem;
+}
+
+section, footer {
+  margin-top: 75px;
+  padding: 50px;
+}
+
+footer {
+  padding: 50px;
+}
+
+.centrado {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-texto {
+    text-align: left;
+    width: 70%;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+img.charla-speaker {
+    margin-right: 50px;
+}
+
+.evento {
+  display: inline-block;
+  width: 30%;
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: white;
+}
+
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+
+.container {
+  padding-top: 196px;
+  width: 65%;
+  margin: 0 auto;
+  text-align: left;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.VeganDB {
+  font-size: 45px;
+  text-align: left;
+  color: #000F08;
+  font-weight: 800;
+  padding-bottom: 73px;
+}
+
+img.simposio {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  padding-bottom: 73px;
+}
+
+.content {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #000F08;
+  text-align: left;
+}
+
+.Samsa {
+  font-size: 40px;
+  color: #000F08;
+  padding-top: 0;
+  padding-bottom: 15px;
+  font-weight: 800;
+}
